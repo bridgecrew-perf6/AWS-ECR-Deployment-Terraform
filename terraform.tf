@@ -1,9 +1,9 @@
-# terraform {
-#   cloud {
-#     organization = "dfef"
+terraform {
+  cloud {
+    organization = "dfef"
 
-#     workspaces {
-#       name = "Test-smit-Workspace-1"
-#     }
-#   }
-# }
+    workspaces {
+      name = "AWS-ECR-Deployment-Terraform"
+    }
+  }
+}
